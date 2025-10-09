@@ -1,0 +1,28 @@
+name: personal_vault_v4
+description: Personal vault with multi-type support, search, folders, document preview, thumbnails, and background auto-sync
+version: 0.1.0
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.0
+  path_provider: ^2.0.15
+  cryptography: ^2.1.0
+  google_sign_in: ^6.2.0
+  googleapis: ^13.0.0
+  googleapis_auth: ^1.6.0
+  flutter_pdfview: ^1.0.4
+  image_picker: ^0.9.0
+  flutter_argon2:
+    path: ./plugins/flutter_argon2
+  flutter_vault_crypto:
+    path: ./plugins/flutter_vault_crypto
+  pdf_render: ^2.0.1
+  flutter_image_compress: ^1.1.0
+  workmanager: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

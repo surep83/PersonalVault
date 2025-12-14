@@ -34,6 +34,14 @@ dependencies:
   provider: ^6.1.2
   intl: ^0.19.0
   fl_chart: ^0.68.0
+  # PDF rendering for thumbnails
+  pdf_render: ^1.4.12
+  # Image compression for thumbnails
+  flutter_image_compress: ^1.1.0
+  # Background tasks
+  workmanager: ^0.5.0
+  # Web-friendly local storage
+  shared_preferences: ^2.1.0
 
 dev_dependencies:
   flutter_test:

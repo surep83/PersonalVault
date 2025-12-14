@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ui/screens/home_screen.dart';
+import 'package:personal_vault_v4/ui/screens/home_screen.dart';
 
 class PersonalVaultApp extends StatelessWidget {
   const PersonalVaultApp({super.key});
